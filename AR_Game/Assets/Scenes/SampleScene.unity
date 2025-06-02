@@ -299,6 +299,10 @@ GameObject:
   - component: {fileID: 438601736}
   - component: {fileID: 438601735}
   - component: {fileID: 438601734}
+  - component: {fileID: 438601737}
+  - component: {fileID: 438601740}
+  - component: {fileID: 438601739}
+  - component: {fileID: 438601738}
   m_Layer: 0
   m_Name: AR Session
   m_TagString: Untagged
@@ -348,6 +352,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &438601737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438601733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fb9209b615ceb439d868d09cac82d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackedImageManager: {fileID: 0}
+  raycastManager: {fileID: 0}
+  dragonPrefab: {fileID: 4141462364303190144, guid: 19f621a7f7cb4a34e90b080696695996, type: 3}
+  temperatureText: {fileID: 176959133}
+  sizeText: {fileID: 1551086449}
+  timerText: {fileID: 1229806010}
+--- !u!114 &438601738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438601733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 3386564923441446422, guid: e1d10804ee62e7441a7f4d90f1314ce1, type: 3}
+  m_DetectionMode: 1
+--- !u!114 &438601739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438601733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
+--- !u!114 &438601740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438601733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520bb47c46cf8624fafb307b7d1b862a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
+  m_OriginBaseGameObject: {fileID: 438601733}
+  m_CameraFloorOffsetObject: {fileID: 0}
+  m_RequestedTrackingOriginMode: 0
+  m_CameraYOffset: 1.1176
 --- !u!1 &611142104
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,7 +649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackedImageManager: {fileID: 2028829994}
   raycastManager: {fileID: 2028829997}
-  dragonPrefab: {fileID: 2048400463776604201, guid: b2b4711a4837f6049b317db48686977d, type: 3}
+  dragonPrefab: {fileID: 4141462364303190144, guid: 19f621a7f7cb4a34e90b080696695996, type: 3}
   temperatureText: {fileID: 176959133}
   sizeText: {fileID: 1551086449}
   timerText: {fileID: 1229806010}
@@ -1294,7 +1360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 3386564923441446422, guid: e1d10804ee62e7441a7f4d90f1314ce1, type: 3}
-  m_DetectionMode: -1
+  m_DetectionMode: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

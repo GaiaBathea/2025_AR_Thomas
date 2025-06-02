@@ -21,8 +21,8 @@ MonoBehaviour:
       m_GuidLow: 4996264927038931841
       m_GuidHigh: 11444921569138260152
     m_SerializedTextureGuid:
-      m_GuidLow: 14282226652965032124
-      m_GuidHigh: 8608698977522247386
+      m_GuidLow: 14507408105582484743
+      m_GuidHigh: 2424219475841050601
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
     m_Name: ice
@@ -31,8 +31,8 @@ MonoBehaviour:
       m_GuidLow: 4768544177753435023
       m_GuidHigh: 13106337179565782687
     m_SerializedTextureGuid:
-      m_GuidLow: 15646653461558798519
-      m_GuidHigh: 11758764833173353403
+      m_GuidLow: 3248405479882094811
+      m_GuidHigh: 8766688259358723547
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
     m_Name: fire
@@ -41,9 +41,9 @@ MonoBehaviour:
       m_GuidLow: 5376034869384226107
       m_GuidHigh: 11007840817705324941
     m_SerializedTextureGuid:
-      m_GuidLow: 15047875811288705999
-      m_GuidHigh: 5018790535745536059
-    m_Size: {x: 0.1, y: 0.1}
+      m_GuidLow: 12503187288889740089
+      m_GuidHigh: 14285354171910094074
+    m_Size: {x: 0.1, y: 0.11940299}
     m_SpecifySize: 1
     m_Name: heater
     m_Texture: {fileID: 0}
@@ -51,9 +51,9 @@ MonoBehaviour:
       m_GuidLow: 5236040420155103551
       m_GuidHigh: 12400920409901263536
     m_SerializedTextureGuid:
-      m_GuidLow: 11733128154907397487
-      m_GuidHigh: 1846731427060140089
-    m_Size: {x: 0.1, y: 0.1}
+      m_GuidLow: 2712382874611607143
+      m_GuidHigh: 18178924810543232216
+    m_Size: {x: 0.1, y: 0.0875}
     m_SpecifySize: 1
     m_Name: window
     m_Texture: {fileID: 0}
