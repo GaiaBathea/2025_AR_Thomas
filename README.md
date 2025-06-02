@@ -15,7 +15,7 @@ Ce projet a été réalisé undividuellement dans le cadre d’un module sur la 
 - **Détection d’images en réalité augmentée** : Utilisation de marqueurs (feu, radiateur, flocon, fenêtre) reconnus par la caméra via AR Foundation.
 - **Température dynamique** : Chaque marqueur influence la température interne du serpent :
   -  Feu / Radiateur : +20°C  
-  - ❄ Flocon / Fenêtre : -15°C
+  - Flocon / Fenêtre : -15°C
 - **Gameplay thermique** :
   - Température évoluant entre -10°C et +80°C
   - Taille du serpent proportionnelle à sa température (0.3 à 2.0)
