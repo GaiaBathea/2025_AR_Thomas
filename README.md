@@ -74,6 +74,4 @@ Ce projet a été réalisé undividuellement dans le cadre d’un module sur la 
 2. Accès document apk
    ```bash wget 
    https://github.com/GaiaBathea/2025_AR_Thomas/commits/APK/VersionFinal.apk
-OU
-      ```bash curl -L-o VersionFinal.apk 
-   https://github.com/GaiaBathea/2025_AR_Thomas/commits/APK/VersionFinal.apk
+   
